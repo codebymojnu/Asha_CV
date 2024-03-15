@@ -1,4 +1,10 @@
-import { FaEnvelope, FaFacebook, FaLinkedin, FaPhone } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaPhone,
+} from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
 function FirstSection() {
@@ -26,14 +32,20 @@ function FirstSection() {
             />
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-8">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/mehgabin.rahman"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
             >
               <FaFacebook className="text-2xl" />
+            </a>
+            <a
+              href="tel:+1234567890"
+              className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
+            >
+              <FaInstagram className="text-2xl" />
             </a>
             <a
               href="https://www.linkedin.com"
@@ -44,13 +56,13 @@ function FirstSection() {
               <FaLinkedin className="text-2xl" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:135833mithila@gmail.com"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
             >
               <FaEnvelope className="text-2xl" />
             </a>
             <a
-              href="tel:+1234567890"
+              href="tel:+8801719791921"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
             >
               <FaPhone className="text-2xl" />
