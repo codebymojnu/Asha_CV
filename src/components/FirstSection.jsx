@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 
 function FirstSection() {
   return (
-    <section className="bg-gray-100">
+    <section>
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center">
           <h1 className="text-3xl font-bold mb-2"><span className="text-red-300">আমি </span>আশা মণি</h1>  
