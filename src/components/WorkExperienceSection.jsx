@@ -1,19 +1,13 @@
 export default function WorkExperienceSection() {
   const workExperience = [
     {
-      year: "2022- Present",
-      position: "Research Assistant",
-      institution: "ABC University, Department of Chemistry",
+      year: "2024 - Present",
+      position: "সংসার সামলানো",
+      institution: "মজনু ও আশার সংসার",   
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+        "২০২৪ সালের ২২ জুন মজনু মিয়ার ঘরে সংসার সামলানোর জন্য বউ হয়ে আসি।",  
     },
-    {
-      year: "2020-2022",
-      position: "Chemistry Tutor",
-      institution: "XYZ Academy",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-    },
+   
     // Add more work experience entries as needed
   ];
 
@@ -22,7 +16,7 @@ export default function WorkExperienceSection() {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-300">
-            Work Experience
+            কাজের অভিজ্ঞতা 
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4">
             {workExperience.map((item, index) => (

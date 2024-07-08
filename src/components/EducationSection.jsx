@@ -1,15 +1,15 @@
 export default function EducationSection() {
   const education = [
     {
-      year: "2024",
-      degree: "B.Sc. in Chemistry",
+      year: "2021",
+      degree: "Higher Secondary Certificate (HSC)",
       institution:
-        "Pabna University of Science and Technology, Pabna 6600, Bangladesh",
+        "নাগেশ্বরী মহিলা কলেজ",
     },
     {
-      year: "2018",
-      degree: "Higher Secondary Certificate (HSC) in Science",
-      institution: "Ishwardi Govt.College, Pabna",
+      year: "2019",
+      degree: "Secondary School Certificate (SSC)",
+      institution: "বেরুবাড়ী গার্লস স্কুল", 
     },
     // Add more education entries as needed
   ];
@@ -19,7 +19,7 @@ export default function EducationSection() {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-300">
-            Education
+            আমার স্কুল ও কলেজ 
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4">
             {education.map((item, index) => (

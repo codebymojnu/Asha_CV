@@ -1,11 +1,8 @@
 export default function SkillsSection() {
   const skills = [
-    "Organic Chemistry",
-    "Physical Chemistry",
-    "Analytical Chemistry",
-    "Inorganic Chemistry",
-    "Biochemistry",
-    "Laboratory Techniques",
+    "ভালো রান্না করতে পারি",
+    "গুছিয়ে কথা বলতে পারি", 
+    "সংসার সামলাতে পারি"
     // Add more skills as needed
   ];
 
@@ -14,7 +11,7 @@ export default function SkillsSection() {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-300">
-            Skills
+            আমার কাজের দক্ষতা 
           </h2>
           <div className="container mx-auto w-100">
             <ul className="list-disc list-inside">

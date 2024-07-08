@@ -1,19 +1,19 @@
 export default function PersonalInformationSection() {
   const personalInformation = [
-    { label: "Father’s name", value: "Md. Mostafizur Rahman" },
-    { label: "Mother’s name", value: "Mst. Ayvee Akter" },
-    { label: "Place of Birth", value: "Baghail, Paksey, Ishwardi, Pabna" },
-    { label: "Nationality", value: "Bangladeshi (By Birth)" },
-    { label: "Sex", value: "Female" },
-    { label: "Religion", value: "Islam" },
-    { label: "Marital status", value: "Unmarried" },
-    { label: "Blood group", value: "A+ (Positive)" },
+    { label: "পিতার নাম", value: "মোঃ সৈফুর রহমান" },   
+    { label: "মাতার নাম", value: "মোছাঃ ফাতেমা বেগম" }, 
+    { label: "জন্মস্থান", value: "৩ নং ওয়ার্ড, মুয়ামারি, বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম" },  
+    { label: "জাতীয়তা", value: "বাংলাদেশি" },  
+    { label: "লিঙ্গ", value: "মহিলা" },  
+    { label: "ধর্ম", value: "ইসলাম" }, 
+    { label: "বৈবাহিক অবস্থা", value: "বিবাহিত" },  
+    {label: "স্বামীর নাম", value: "মোঃ মজনু মিয়া"},
+    { label: "রক্তের গ্রুপ", value: "এ+ (পজেটিভ)" },  
     {
-      label: "Address",
-      value: "Baghail, Paksey, Ishwardi, Pabna.",
+      label: "ঠিকানা", 
+      value: "৩ নং ওয়ার্ড, মুয়ামারি, বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম",
     },
-    { label: "Email", value: "135833mithila@gmail.com" },
-    { label: "Phone", value: "1719791921" }, // Add your phone number here
+    { label: "ফোন নাম্বার", value: "01306341958" }, // Add your phone number here 
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function PersonalInformationSection() {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-300">
-            Personal Information
+            ব্যাক্তিগত তথ্য 
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4">
             {personalInformation.map((info, index) => (
