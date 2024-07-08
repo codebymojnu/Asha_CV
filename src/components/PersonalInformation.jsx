@@ -1,33 +1,30 @@
 export default function PersonalInformationSection() {
   const personalInformation = [
-    { label: "পিতার নাম", value: "মোঃ সৈফুর রহমান" },   
-    { label: "মাতার নাম", value: "মোছাঃ ফাতেমা বেগম" }, 
-    { label: "জন্মস্থান", value: "৩ নং ওয়ার্ড, মুয়ামারি, বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম" },  
-    { label: "জাতীয়তা", value: "বাংলাদেশি" },  
-    { label: "লিঙ্গ", value: "মহিলা" },  
-    { label: "ধর্ম", value: "ইসলাম" }, 
-    { label: "বৈবাহিক অবস্থা", value: "বিবাহিত" },  
-    {label: "স্বামীর নাম", value: "মোঃ মজনু মিয়া"},
-    { label: "রক্তের গ্রুপ", value: "এ+ (পজেটিভ)" },  
-    {
-      label: "ঠিকানা", 
-      value: "৩ নং ওয়ার্ড, মুয়ামারি, বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম",
-    },
-    { label: "ফোন নাম্বার", value: "01306341958" }, // Add your phone number here 
+    { label: "পিতার নাম", value: "মোঃ সৈফুর রহমান" },
+    { label: "মাতার নাম", value: "মোছাঃ ফাতেমা বেগম" },
+    { label: "জন্মস্থান", value: "বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম" },
+    { label: "জাতীয়তা", value: "বাংলাদেশি" },
+    { label: "লিঙ্গ", value: "মহিলা" },
+    { label: "ধর্ম", value: "ইসলাম" },
+    { label: "বৈবাহিক অবস্থা", value: "বিবাহিত" },
+    { label: "স্বামীর নাম", value: "মোঃ মজনু মিয়া" },
+    { label: "রক্তের গ্রুপ", value: "এ+ (পজেটিভ)" },
+    { label: "ঠিকানা", value: "বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম" },
+    { label: "ফোন নাম্বার", value: "01306341958" },
   ];
 
   return (
-    <section className="py-1 ">
-      <div className="container mx-auto px-4">
+    <section className="py-8 bg-gray-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-300">
-            ব্যাক্তিগত তথ্য 
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b-2 border-gray-300 pb-2">
+            ব্যাক্তিগত তথ্য
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4">
+          <div className="grid grid-cols-1 gap-4">
             {personalInformation.map((info, index) => (
-              <div key={index} className="flex">
-                <p className="font-bold mr-2">{info.label}:</p>
-                <p>{info.value}</p>
+              <div key={index} className="flex justify-between">
+                <p className="font-bold text-gray-700 mr-auto">{info.label}:</p>
+                <p className="text-gray-900 ml-auto">{info.value}</p>
               </div>
             ))}
           </div>
