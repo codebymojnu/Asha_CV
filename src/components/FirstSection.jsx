@@ -28,7 +28,7 @@ function FirstSection() {
 
           <div className="flex gap-8">
             <a
-              href="https://www.facebook.com/mehgabin.rahman"
+              href="https://www.facebook.com/profile.php?id=100059434493515"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
@@ -36,7 +36,7 @@ function FirstSection() {
               <FaFacebook className="text-2xl" />
             </a>
             <a
-              href="tel:+1234567890"
+              href="tel:+8801306341958"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
             >
               <FaInstagram className="text-2xl" />
@@ -50,13 +50,13 @@ function FirstSection() {
               <FaLinkedin className="text-2xl" />
             </a>
             <a
-              href="mailto:135833mithila@gmail.com"
+              href="mailto:thisismojnu@gmail.com"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
             >
               <FaEnvelope className="text-2xl" />
             </a>
             <a
-              href="tel:+8801719791921"
+              href="tel:+8801306341958"
               className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
             >
               <FaPhone className="text-2xl" />
