@@ -10,7 +10,7 @@ export default function PersonalInformationSection() {
     { label: "স্বামীর নাম", value: "মোঃ মজনু মিয়া" },
     { label: "রক্তের গ্রুপ", value: "এ+ (পজেটিভ)" },
     { label: "ঠিকানা", value: "বেরুবাড়ি, নাগেশ্বরী, কুড়িগ্রাম" },
-    { label: "ফোন নাম্বার", value: "01306341958" },
+    { label: "ফোন নাম্বার", value: "01334014938" },
   ];
 
   return (
