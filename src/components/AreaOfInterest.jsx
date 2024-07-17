@@ -5,7 +5,8 @@ export default function AreaOfInterestSection() {
     "রান্না করা", 
     "কুরআন তেলওয়াত করা",   
     "ইসলামকে জানা", 
-    "ভিডিও বানানো",  
+    "ভিডিও বানানো",
+ "টাইপিং শেখা",
   ];
 
   return (
